@@ -8,9 +8,9 @@
     <canvas id ="gameScreen" width="800" height="600"></canavs>
     <script>
     let canvas = document.getElementById("gameScreen");
-      
+    let ctx = canvas.getContext('2d'); 
       ctx.clearRect(0, 0, 800, 60)
-      let ctx = canvas.getContext('2d');
+      
       ctx.fillStle = '#f00';
       ctx.fillRect(20, 20, 100, 100)
       
